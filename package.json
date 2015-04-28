@@ -47,11 +47,13 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "underscore": "1.5.x",
+    "fs": "0.0.2",
+    "path": "^0.11.14",
     "q": "0.9.x",
-    "superagent": "0.15.x",
     "requirejs": "2.1.x",
-    "traverse": "0.6.x"
+    "superagent": "0.15.x",
+    "traverse": "0.6.x",
+    "underscore": "1.5.x"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
